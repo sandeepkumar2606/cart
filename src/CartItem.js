@@ -8,7 +8,7 @@ const CartItem = (props) => {
     return (
         <div className="cart-item">
             <div className="left-block">
-                <img style={styles.image}/>
+                <img style={styles.image} src={product.img} />
             </div>
 
             <div className="right-block">
@@ -46,8 +46,8 @@ const CartItem = (props) => {
 
 const styles ={
     image: {
-        height: 125,
-        width: 114,
+        height: 160,
+        width: 160,
         borderRadius: 4,
         background: '#ccc'
     }
